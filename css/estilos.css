@@ -1,0 +1,82 @@
+
+body{
+     background-color: #314A5A;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F1F1F1;
+    padding: 0px;
+}
+em{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 65px;
+    color: #25A3A8;
+}
+.Barrasup{
+            background-color: #2B4141;
+            color: white;
+            border: 1px solid #CCC;
+            font-family: "lemonde-courrier-1","lemonde-courrier-2", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            padding: 5px 0px;
+            width: auto;
+        }
+.Papa{
+            margin-top: 0px;
+            background-position: 0px 245px;
+            position: absolute;
+        }
+.Hijo{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tabla{
+    width: 200%;
+}
+.Hijo1{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+.margen{
+    border-radius: 20px; 
+    border-color: #19A696;
+}
+.aling{
+     transform: translate(200%, 10%);
+}
+.aling2{
+     transform: translate(290%, 10%);
+}
+.alingin{
+     transform: translate(568%, 10%);
+}
+.loginn{
+	background-color: #F1D4AC;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #314A5A;
+	padding: 0px;
+}
+p{
+	color: #F1F1F1;
+}
+}
+.label-danger{
+    display: none;
+}
+.margin{
+    margin-top: 60px;
+}
+.aling2{
+     transform: translate(306%, 10%);
+}
+.aling3{
+     transform: translate(387%, 10%);
+}
+
+p{
+    color: #F1F1F1;
+}

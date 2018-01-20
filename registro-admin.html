@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet"  href="CSS/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<head>
+	<title>Nuevo usuario</title>
+</head>
+<body>
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+	<form method="post" action="PHP/insertUsers-admin.php">
+		<br>
+        <center>
+			<label>Nombre del usuario</label>
+			<input type="text" name="new_user" class="form-control">
+		<br>
+		<label>*Email.</label>
+            <br />
+			<input type="email" name="email" class="form-control ">
+            <br/>
+			
+			<label>Contraseña</label>
+			<input type="password" name="contra" class="form-control">
+			<br>
+			<label>Confirmar constraseña</label>
+            <br />
+			<input type="password" name="confirmar" class="form-control ">
+            <br/>
+			<input type="submit" value="Registrar" class="btn btn-primary ">
+            </center>
+		</form>
+        <center>
+            <br>
+             <input type="submit" name="Salir" value="Salir" class="btn btn-success boton2" onclick="location = 'login-admin.html'">
+    </center>
+    
+		</div>
+		</div>
+<section class="Hijo">
+ <div class="dos"></div>
+		</section>
+</body>
+</html>
